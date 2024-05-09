@@ -1,29 +1,25 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #hero {
-    width: 626px;
-    margin: 0 auto 72px;
+    width: 90%;
+    max-width: 626px;
+    margin: 0 auto;
+    padding-top: 64px;
 }
 
 #hero img {
-    margin: 64px 0 32px;
+    margin-bottom: 32px;
 }
 
 h1 {
     font-family: 'Dosis', sans-serif;
     font-size: 32px;
-    font-weight: normal;
+    font-weight: 600;
     color: #3F3D56;
     margin-bottom: 16px;
 }
@@ -36,44 +32,55 @@ span {
     color: #EE24FF;
 }
 
-#firstparagraph {
+strong {
     color: #3F3D56;
 }
 
-#secondparagraph {
-    color: #3F3D56;
-}
-
-p {
+section p {
     color: #7D7987;
     font-size: 15px;
     line-height: 22px;
 }
 
+footer {
 
-#footer a {
-    position: relative;
-    margin: auto;
-    margin-left: 42px;
-    z-index: 1;
-    color: #3f3d56;
     font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 42px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3d56;
 }
 
 .line {
     height: 0;
     width: 391px;
     border-top: 1px solid #ECEFF2;
-    margin: 0 auto 16px;
-    line-height: 50px;
+    margin: 64px auto 17px;
 }
 
 #wave {
     width: 100%;
     bottom: 0;
-    margin-top: 40.83px;
+    margin-top: 41px;
     z-index: -1;
     left: 0;
     right: 0;
 }
-
